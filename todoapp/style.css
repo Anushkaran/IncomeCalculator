@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary-box p {
+    margin: 8px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section select,
+.input-section button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.input-section button {
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.input-section button:hover {
+    background: #218838;
+}
+
+/* Filter Section */
+.filter-options {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-options label {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* List Section */
+.list-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #ffc107;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.list-container button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.list-container button:hover {
+    background: #c82333;
+}
